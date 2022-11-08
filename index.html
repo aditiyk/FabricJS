@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Adding the FabricJS library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/510/fabric.min.js"></script>
+  </head>
+  <body>
+    <h2>How to create a canvas using FabricJS</h2>
+    <canvas id="canvas" style="border: 2px solid black"></canvas>
+    <script>
+      var canvas = new fabric.Canvas("canvas", {
+        width: 600,
+        height: 400,
+        isDrawingMode: true,
+        backgroundColor: "#b0e0e6",
+      });
+    </script>
+  </body>
+</html>
